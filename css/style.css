@@ -5,3 +5,51 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Contenuto principale */
+
+#container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+#header-container {
+    background-color: rgb(232, 247, 170);
+    width: 1100px;
+    height: 400px;
+    padding: 25px; 
+    display: flex;
+}
+
+#header-paragrafo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width:600px;
+    background-color: rgb(155, 218, 240);
+
+}
+
+.section-box {
+    height: 450px;
+    background-color: rgba(152, 251, 152, 0.797);
+    justify-content: center;
+    align-content: center;
+    border: 3px dashed rgb(29, 64, 239);
+    margin-bottom: 1px;
+}
+
+.big {
+    height: 500px;
+    background-color: rgba(112, 249, 194, 0.799);
+    justify-content: center;
+    align-content: center;
+    border: 3px dashed rgb(29, 64, 239);
+
+}
+
+/* Piè di pagina */
+
+
+
